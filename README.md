@@ -31,7 +31,7 @@ The **I3DColorNodeAddon** is a powerful tool designed to automate and simplify v
 
 The Lazy E Modding Script is **open-source software** licensed under the **GNU General Public License, version 3** (GPL-3.0).
 
-By using, modifying, or redistributing this script, you agree to the terms and conditions outlined in the [License Agreement](LICENSE.md).
+By using, modifying, or redistributing this script, you agree to the terms and conditions outlined in the [License Agreement](LICENSE).
 
 ## GNU General Public License (GPL-3.0)
 
@@ -41,7 +41,7 @@ By using, modifying, or redistributing this script, you agree to the terms and c
 - You may not add any additional restrictions on the rights granted by the GPL. For example, you may not add a license that restricts the ability of others to modify or redistribute the software.
 - You are allowed to **use** the software for commercial purposes, but you must ensure that any redistribution complies with the GPL-3.0.
 
-The full license text can be found in the [LICENSE.md](LICENSE.md) file.
+The full license text can be found in the [LICENSE.md](LICENSE) file.
 
 ### DISCLAIMER:
 This script is provided **as-is**, without any warranty or guarantee of any kind, either express or implied, including but not limited to the warranties of merchantability or fitness for a particular purpose.
