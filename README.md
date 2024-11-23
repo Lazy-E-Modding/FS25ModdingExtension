@@ -1,5 +1,5 @@
 # i3D Color Node Addon for Blender
-
+[![Github All Releases](https://img.shields.io/github/downloads/lazyemodding/i3dColorNodeAddon/total.svg)]()
 ## Overview
 
 The **I3DColorNodeAddon** is a powerful tool designed to automate and simplify various modding tasks in **Blender**. This script provides functionality for manipulating materials, creating nodes, and extracting custom properties. Specifically, it can create an **RGB node** in the Shader Editor from a custom property (`customParameter_colorScale`) in a material, streamlining workflows for modders.
