@@ -4,6 +4,7 @@
 
 The **I3DColorNodeAddon** is a powerful tool designed to automate and simplify various modding tasks in **Blender**. This script provides functionality for manipulating materials, creating nodes, and extracting custom properties. Specifically, it can create an **RGB node** in the Shader Editor from a custom property (`customParameter_colorScale`) in a material, streamlining workflows for modders.
 
+## Checkout the [Wiki](https://github.com/Lazy-E-Modding/i3DColorNodeAddon/wiki) for indepth info on installing, using, and more.
 ## Features
 
 - Retrieves the `customParameter_colorScale` property from the active material.
