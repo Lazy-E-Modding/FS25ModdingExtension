@@ -4,14 +4,13 @@ from bpy.app.handlers import persistent
 bl_info = {
     "name": "RGB Node for Giants Exporter Tool",
     "author": "Lazy E Modding",
-    "version": (0, 1, 0, 1),
+    "version": (1, 0, 0, 0),
     "blender": (4, 2, 2),
     "location": "Shader Editor > Add Menu",
-    "description": "Creates an RGB node in the Shader Editor that automatically updates whenever a material is modified by the Giants Exporter, ensuring seamless integration and real-time synchronization during the export process.",
+    "description": "Creates a RGB Node in the shader menu that updates automatically when connect to be able to visualize a color with a material in blender that will be similar to what it will appear like in Giants Editor.",
     "category": "Node",
 }
 
-# Store the last known values of the property to detect changes
 last_property_values = {}
 
 def update_rgb_node(material):
@@ -61,7 +60,7 @@ def check_property_changes():
         else:
             last_property_values.pop(material.name, None)
 
-    return 1.0  # Check every 1 second
+    return 1.0
 
 @persistent
 def load_post_handler(dummy):
@@ -71,7 +70,7 @@ def load_post_handler(dummy):
 class CUSTOM_OT_CreateRGBNode(bpy.types.Operator):
     """Create an RGB Node from 'customParameter_colorScale'"""
     bl_idname = "node.create_rgb_node"
-    bl_label = "Create RGB Node"
+    bl_label = "Create i3D RGB Node"
     bl_options = {'REGISTER', 'UNDO'}
 
     def execute(self, context):
