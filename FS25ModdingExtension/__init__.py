@@ -19,7 +19,7 @@ bl_info = {
     "version": (1, 0, 1, 0),
     "blender": (2, 83, 0),
     "location": "Shader Editor > Add Menu",
-    "description": "Adds an RGB Node to the shader menu, visualizing colors similar to Giants Editor.",
+    "description": "Provides more tools for modders in Blender",
     "category": "Node",
     "doc_url": "https://github.com/Lazy-E-Modding/i3DColorNodeAddon/wiki/Info",
     "tracker_url": "https://github.com/Lazy-E-Modding/i3DColorNodeAddon/issues",
