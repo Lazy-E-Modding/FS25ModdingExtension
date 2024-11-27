@@ -2,7 +2,7 @@
 [![Github All Releases](https://img.shields.io/github/downloads/lazyemodding/i3dColorNodeAddon/total.svg)]()
 ## Overview
 
-The **I3DColorNodeAddon** is a powerful tool designed to automate and simplify various modding tasks in **Blender**. This script provides functionality for manipulating materials, creating nodes, and extracting custom properties. Specifically, it can create an **RGB node** in the Shader Editor from a custom property (`customParameter_colorScale`) in a material, streamlining workflows for modders.
+The **FS25 Modding Extension** is a powerful tool designed to make modders spend less time on the smaller things, and more time working on projects in Blender. 
 
 ## Checkout the [Wiki](https://github.com/Lazy-E-Modding/i3DColorNodeAddon/wiki) for indepth info on installing, using, and more.
 
@@ -13,22 +13,22 @@ The **I3DColorNodeAddon** is a powerful tool designed to automate and simplify v
 - Parses the RGBA values from the custom property.
 - Automatically creates an **RGB node** in the Shader Editor with the parsed color values.
 - Easy-to-use interface, integrated into the Shader Editor's **Add Menu**.
+- Allows user to define the `FS25 Game Directory` in the Add-On's preference menu, which then will load that path into the exporter tool in the game directory path, and the shader path, automaticly when both the **FS25 Modding Extension** and the **Giants Exporter Tool** are enabled in Blender.
 
 ## Installation
 
 1. **Download the Script**:  
-   Download the `I3DColorNodeAddon` file and save it to your computer.
+   Download the `FS25 Modding Extension` add-on from GitHub, and save it to your computer. 
 
 2. **Install the Add-On**:
    - Open Blender.
    - Go to **Edit** > **Preferences** > **Add-ons**.
-   - Click the **Install...** button and select the downloaded `i3DColorNodeAddon.zip` file.
+   - Click the **Install...** button and select the downloaded `FSModdingExtension.zip` file.
    - Enable the add-on by checking the box next to its name in the Add-ons list.
 
-3. **Using the Script**:
-   - Open the **Shader Editor** in Blender.
-   - Right-click in the editor and select **Add > Custom RGB Node** from the context menu.
-   - The script will automatically read the `customParameter_colorScale` from the active material (if it exists) and create an RGB node with the corresponding RGBA values.
+3. **Using the Add-On**:
+   - **Set Game Path:** Go to `Edit -> Preferences -> Add-Ons -> FS25 Modding Extension` and look in the preferences section of the add-on, and locate your game directory using the file browser function inside of Blender. This will automatically fill in the game path, and the shader path in the exporter tool every time you start a project with both add-on's enabled.
+   - **I3D Color Node:** To use the color node, you will need to assign a material to a mesh, and then use a supported shader in the material tab of the exporter. Select a material and color *(Currently doesn't work with `brand materials`)*. Once you have done that, click apply at the bottom. Go to your shader tab, and you should have a RGB node that will auto update when you change the color of the material in the exporter.  
 
 ## License
 
