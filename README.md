@@ -1,4 +1,4 @@
-# i3D Color Node Addon for Blender
+# FS25 Modding Extension for Blender
 [![Github All Releases](https://img.shields.io/github/downloads/lazyemodding/i3dColorNodeAddon/total.svg)]()
 ## Overview
 
